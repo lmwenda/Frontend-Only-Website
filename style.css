@@ -1,0 +1,109 @@
+/* CSS File */
+
+*{
+	font-family: sans-serif;
+}
+
+body{
+	background: #222;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  transition: 0.6s ease;
+}
+
+li {
+  float: right;
+  transition: 0.6s ease;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.6s ease;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ff032d;
+  transition: 0.6s ease;
+}
+
+.Home.active{
+	background-color: #ff032d;
+}
+
+.title{
+	float: left;
+	display: inline;
+	color: #fff;
+	font-size: 20px;
+}
+
+.bodytitle{
+	color: #fff;
+	top: 40%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	transition: 0.6s ease;
+}
+
+.bodyniggas{
+	color: #fff;
+	top: 55%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	transition: 0.6s ease;
+}
+
+.explore{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.video{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.explore:hover{
+	background-color: #ff032d;
+	transition: 0.6s ease;
+}
+
+.active, .video:hover{
+	background-color: #ff032d;
+	transition: 0.6s ease;
+}
+
+.subtitle1{
+	font-size: 15px;
+	text-align: center;
+	color: #000;
+	font-family: 'arial'
+}
+
+footer{
+	width: 100%;
+	background-color: #fff;
+	padding: 60px 0px;
+}
+
